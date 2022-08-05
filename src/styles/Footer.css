@@ -1,0 +1,142 @@
+#mainFooter {
+
+    background-color: #022b5b;
+    padding: 60px 0;
+    margin-top: 10%;
+}
+
+.footerImage img {
+    width: 100%;
+    height: auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 1rem;
+    font-size: larger;
+}
+
+.social-icons i {
+    color: aliceblue;
+}
+
+.footer-title {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 31px;
+    margin-bottom: 5px;
+    padding-left: 22%;
+}
+
+ul li {
+    color: #a0a2a6;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-bottom: 10px;
+    transition: color .3s ease;
+}
+
+ul {
+    list-style: none;
+}
+
+.Footer-bottom {
+    color: var(--white-color);
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    width: 100%;
+}
+
+#firstcol {
+    display: flex;
+    gap: 5rem;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+#righttext {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-left: auto;
+    display: flex;
+    justify-content: end;
+}
+
+.closeIcon {
+    display: flex;
+    color: white !important;
+    background-color: black;
+    justify-content: end;
+    align-items: end;
+    padding: 0.5rem;
+    cursor: pointer;
+
+}
+
+.closeIcon i {
+    left: -10px;
+    color: white;
+}
+
+.video {
+    background-image: url('./../images/unsplash_nYgy58eb9aw.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90%;
+
+}
+
+.playicon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.playicon img {
+    border-radius: 50%;
+    width: 29%;
+    cursor: pointer;
+}
+
+.playicon :hover {
+    width: 35%;
+    transition: 0.9s ease;
+}
+@media screen and (max-width: 500px) {
+
+    #mainFooter .container .row{
+
+        display: flex;
+        flex-direction: column-reverse;
+
+
+    }
+    #mainFooter .container .row .col-3{
+height: 27vh;
+width: 100%;
+
+    }
+    .footerImage img{
+        /* position: absolute;
+        top: -39px;
+        left: 0; */
+    }
+   .social-icons {
+    /* position: absolute;
+    top: 201px;
+    left: 74px; */
+    }
+
+}
